@@ -1,0 +1,14 @@
+{% load tree_menu_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Меню</title>
+</head>
+<body>
+
+{% comment %} тут может быть любое название главного меню {% endcomment %}
+{% draw_menu menu_name='main_menu' current_url=item_url %}
+
+</body>
+</html>
